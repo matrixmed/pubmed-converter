@@ -1,0 +1,72 @@
+2025-02-24 15:34:00,351 - app.core.xml_validator - ERROR - Validation error: 'DTDResolver' object has no attribute 'logger'
+Traceback (most recent call last):
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 102, in validate
+    root = etree.fromstring(xml_content.encode('utf-8'), parser)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src\lxml\etree.pyx", line 3257, in lxml.etree.fromstring
+  File "src\lxml\parser.pxi", line 1916, in lxml.etree._parseMemoryDocument
+  File "src\lxml\parser.pxi", line 1803, in lxml.etree._parseDoc
+  File "src\lxml\parser.pxi", line 1144, in lxml.etree._BaseParser._parseDoc
+  File "src\lxml\parser.pxi", line 618, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src\lxml\parser.pxi", line 724, in lxml.etree._handleParseResult
+  File "src\lxml\etree.pyx", line 334, in lxml.etree._ExceptionContext._raise_if_stored
+  File "src\lxml\parser.pxi", line 448, in lxml.etree._local_resolver
+  File "src\lxml\docloader.pxi", line 150, in lxml.etree._ResolverRegistry.resolve
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 285, in resolve
+    self.logger.warning(f"Could not resolve entity: {system_url} ({public_id})")
+    ^^^^^^^^^^^
+AttributeError: 'DTDResolver' object has no attribute 'logger'
+2025-02-24 15:34:00,409 - app.core.xml_validator - ERROR - Validation error: 'DTDResolver' object has no attribute 'logger'
+Traceback (most recent call last):
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 102, in validate
+    root = etree.fromstring(xml_content.encode('utf-8'), parser)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src\lxml\etree.pyx", line 3257, in lxml.etree.fromstring
+  File "src\lxml\parser.pxi", line 1916, in lxml.etree._parseMemoryDocument
+  File "src\lxml\parser.pxi", line 1803, in lxml.etree._parseDoc
+  File "src\lxml\parser.pxi", line 1144, in lxml.etree._BaseParser._parseDoc
+  File "src\lxml\parser.pxi", line 618, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src\lxml\parser.pxi", line 724, in lxml.etree._handleParseResult
+  File "src\lxml\etree.pyx", line 334, in lxml.etree._ExceptionContext._raise_if_stored
+  File "src\lxml\parser.pxi", line 448, in lxml.etree._local_resolver
+  File "src\lxml\docloader.pxi", line 150, in lxml.etree._ResolverRegistry.resolve
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 285, in resolve
+    self.logger.warning(f"Could not resolve entity: {system_url} ({public_id})")
+    ^^^^^^^^^^^
+AttributeError: 'DTDResolver' object has no attribute 'logger'
+2025-02-24 16:37:09,692 - app.core.xml_validator - ERROR - Validation error: 'DTDResolver' object has no attribute 'logger'
+Traceback (most recent call last):
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 102, in validate
+    root = etree.fromstring(xml_content.encode('utf-8'), parser)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src\lxml\etree.pyx", line 3257, in lxml.etree.fromstring
+  File "src\lxml\parser.pxi", line 1916, in lxml.etree._parseMemoryDocument
+  File "src\lxml\parser.pxi", line 1803, in lxml.etree._parseDoc
+  File "src\lxml\parser.pxi", line 1144, in lxml.etree._BaseParser._parseDoc
+  File "src\lxml\parser.pxi", line 618, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src\lxml\parser.pxi", line 724, in lxml.etree._handleParseResult
+  File "src\lxml\etree.pyx", line 334, in lxml.etree._ExceptionContext._raise_if_stored
+  File "src\lxml\parser.pxi", line 448, in lxml.etree._local_resolver
+  File "src\lxml\docloader.pxi", line 150, in lxml.etree._ResolverRegistry.resolve
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 285, in resolve
+    self.logger.warning(f"Could not resolve entity: {system_url} ({public_id})")
+    ^^^^^^^^^^^
+AttributeError: 'DTDResolver' object has no attribute 'logger'
+2025-02-24 16:37:09,760 - app.core.xml_validator - ERROR - Validation error: 'DTDResolver' object has no attribute 'logger'
+Traceback (most recent call last):
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 102, in validate
+    root = etree.fromstring(xml_content.encode('utf-8'), parser)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src\lxml\etree.pyx", line 3257, in lxml.etree.fromstring
+  File "src\lxml\parser.pxi", line 1916, in lxml.etree._parseMemoryDocument
+  File "src\lxml\parser.pxi", line 1803, in lxml.etree._parseDoc
+  File "src\lxml\parser.pxi", line 1144, in lxml.etree._BaseParser._parseDoc
+  File "src\lxml\parser.pxi", line 618, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src\lxml\parser.pxi", line 724, in lxml.etree._handleParseResult
+  File "src\lxml\etree.pyx", line 334, in lxml.etree._ExceptionContext._raise_if_stored
+  File "src\lxml\parser.pxi", line 448, in lxml.etree._local_resolver
+  File "src\lxml\docloader.pxi", line 150, in lxml.etree._ResolverRegistry.resolve
+  File "C:\Users\AndrewDaly\Desktop\pubmed-converter\backend\app\core\xml_validator.py", line 285, in resolve
+    self.logger.warning(f"Could not resolve entity: {system_url} ({public_id})")
+    ^^^^^^^^^^^
+AttributeError: 'DTDResolver' object has no attribute 'logger'
